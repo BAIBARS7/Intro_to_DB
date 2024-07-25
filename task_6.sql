@@ -1,7 +1,3 @@
--- This script inserts multiple rows into the customer table
-
-USE `$1`;  -- Use the database name passed as argument
-
 INSERT INTO customer (customer_id, customer_name, email, address)
 VALUES
   (2, 'Blessing Malik', 'bmalik@sandtech.com', '124 Happiness Ave.'),
